@@ -67,7 +67,7 @@ import YFooter from '~/components/common/Footer'
 import YSide from '~/components/account/Side'
 import DPage from '~/components/Page'
 import {lecturerCourseList, coursePutaway, deleteCourse} from '~/api/account/course.js'
-import {getUserInfo} from '~/api/user.js'
+
 export default {
   components: {
       DPage

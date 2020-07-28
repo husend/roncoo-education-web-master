@@ -57,6 +57,9 @@ export default {
     }
   },
   async asyncData (context) {
+      console.log("context111")
+      console.log(context)
+      console.log("context111")
     let dataObj = {}
     let clientNo = context.store.state.clientData.no
     dataObj.clientNo = clientNo
@@ -91,15 +94,15 @@ export default {
       free = 3
     }
     let obj = {
-          categoryId1,
-          categoryId2,
-          categoryId3,
-          orgNo: clientNo,
-          pageCurrent: 1,
-          pageSize: 20,
-          isFree,
-          isVipFree
-        }
+      categoryId1,
+      categoryId2,
+      categoryId3,
+      orgNo: clientNo,
+      pageCurrent: 1,
+      pageSize: 20,
+      isFree,
+      isVipFree
+    }
     let pageObj = {
       list: [],
       pageCurrent: '',

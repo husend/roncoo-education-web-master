@@ -68,11 +68,13 @@ export default {
 <style lang="scss" scoped>
 .banner{
   position: relative;
+  width: 100%;
   ul{
     position: relative;
   }
   .item{
     opacity: 0;
+    width: 100%;
     height: 100%;
     background-position: center center;
     position: absolute;
@@ -82,6 +84,7 @@ export default {
     bottom: 0;
     z-index: 9;
     transition: all 1s;
+    background-repeat: no-repeat;
     &.on{
       opacity: 1;
       z-index: 10;

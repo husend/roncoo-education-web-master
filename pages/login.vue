@@ -110,7 +110,7 @@
 <script>
   import YHeader from '~/components/common/Header'
   import YButton from '~/components/common/CodeButton'
-  import {userLogin, getUserInfo, register, getAppId} from '~/api/user.js'
+  import {userLogin, register, getAppId} from '~/api/user.js'
 export default {
     head () {
       return {

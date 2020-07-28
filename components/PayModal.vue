@@ -247,6 +247,7 @@
           channelType: 1,
           courseId: 0,
           payType: 1,
+          tradeType: 'NATIVE',
           remarkCus: ''
         },
         orderInfo: null,

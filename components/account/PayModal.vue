@@ -79,7 +79,8 @@ export default {
       })
       continuePay({
         orderNo: this.data.orderNo,
-        payType: pt
+        payType: pt,
+        tradeType: 'NATIVE'
       }).then(res => {
         console.log(res)
         let result = res.data

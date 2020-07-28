@@ -6,6 +6,6 @@ export default {
         name: '知码在线', // 页面title
         domain: 'localhost', // cookie作用域
         tokenName: 'OSTK', // cookie保存的名称
-        mainUrl: 'http://localhost:3000' // 网站域名http://edu.os.roncoo.com
+        mainUrl: 'http://127.0.0.1:3000' // 网站域名http://edu.os.roncoo.com
     }
 }
